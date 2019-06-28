@@ -1,5 +1,5 @@
 
-//Magnetic.c
+// 4013.c
 #include <stdio.h>
 #include <math.h>
 
