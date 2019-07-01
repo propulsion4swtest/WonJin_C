@@ -50,7 +50,8 @@ void countNum(int *numB, int *numW)	{
 		for (int j = 1; j <= N; j++)	{
 			if (board[i][j] == WHITE)
 				(*numW)++;
-			else	(*numB)++;
+			else if (board[i][j] == BLACK)
+				(*numB)++;
 
 		}
 	}
