@@ -52,7 +52,6 @@ void countNum(int *numB, int *numW)	{
 				(*numW)++;
 			else if (board[i][j] == BLACK)
 				(*numB)++;
-
 		}
 	}
 }
